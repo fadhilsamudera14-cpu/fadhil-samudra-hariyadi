@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HARIADI FAMILY</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:linear-gradient(135deg,#f8f9ff,#eef2ff);
+    color:#333;
+}
+
+/* HEADER */
+header{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    background:
+    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("IMG-20260102-WA0123.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+header h1{
+    font-size:4rem;
+    animation:slideDown 1.5s ease;
+}
+
+header p{
+    margin-top:15px;
+    font-size:1.2rem;
+    animation:fadeIn 2s ease;
+}
+
+.btn{
+    margin-top:25px;
+    padding:15px 30px;
+    background:white;
+    color:#444;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:scale(1.1);
+}
+
+section{
+    padding:80px 10%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:2.3rem;
+}
+
+/* KARTU KELUARGA */
+.family{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:330px;
+    object-fit:cover;
+}
+
+.card h3{
+    text-align:center;
+    padding:15px;
+}
+
+.card p{
+    text-align:center;
+    padding-bottom:15px;
+}
+
+/* MAKNA */
+.makna{
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+    text-align:center;
+}
+
+details{
+    margin-top:20px;
+    cursor:pointer;
+}
+
+details p{
+    margin-top:20px;
+    line-height:1.8;
+}
+
+/* FOOTER */
+footer{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:60px;
+}
+
+/* ANIMASI */
+@keyframes slideDown{
+    from{
+        opacity:0;
+        transform:translateY(-50px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>HARIADI FAMILY</h1>
+    <p>
+        Keluarga adalah tempat pertama untuk belajar cinta,
+        kasih sayang, dan kebersamaan.
+    </p>
+
+    <a href="#keluarga" class="btn">
+        Lihat Keluarga Kami
+    </a>
+</header>
+
+<section id="keluarga">
+
+<h2>Anggota Keluarga</h2>
+
+<div class="family">
+
+<div class="card">
+    <img src="IMG-20260102-WA0123.jpg" alt="Ayah dan Mamah">
+    <h3>Ayah & Mamah</h3>
+    <p>Pondasi utama keluarga yang penuh kasih sayang.</p>
+</div>
+
+<div class="card">
+    <img src="IMG-20260329-WA0045.jpg" alt="Faris">
+    <h3>Faris Arjuna Isnuadi</h3>
+    <p>Anak Pertama</p>
+</div>
+
+<div class="card">
+    <img src="IMG-20260610-WA0094.jpg" alt="Kirani">
+    <h3>Kirani Aisyah Putri Lestari</h3>
+    <p>Anak Kedua</p>
+</div>
+
+<div class="card">
+    <img src="fadhil.jpg" alt="Fadhil">
+    <h3>Fadhil Samudra Hariadi</h3>
+    <p>Anak Ketiga</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Makna Keluarga</h2>
+
+<div class="makna">
+
+<p>
+Keluarga adalah tempat pulang yang selalu menerima kita apa adanya.
+Di dalam keluarga terdapat cinta, dukungan, perhatian,
+dan kebersamaan yang menjadi kekuatan dalam menjalani kehidupan.
+</p>
+
+<details>
+<summary>
+<b>📖 Klik di sini untuk membaca amanat keluarga harmonis</b>
+</summary>
+
+<p>
+Keluarga yang harmonis dibangun dengan kejujuran,
+saling menghormati, dan saling membantu dalam setiap keadaan.
+Setiap anggota keluarga memiliki tanggung jawab untuk menjaga
+kedamaian dan kebahagiaan bersama.
+
+<br><br>
+
+Perbedaan pendapat adalah hal yang wajar,
+namun harus diselesaikan dengan komunikasi yang baik
+dan penuh rasa hormat.
+
+<br><br>
+
+Jangan pernah melupakan pentingnya waktu bersama,
+karena kebersamaan yang sederhana akan menjadi kenangan
+yang berharga sepanjang hidup.
+
+<br><br>
+
+Dengan kasih sayang, kesabaran, dan rasa syukur,
+keluarga akan menjadi tempat paling nyaman untuk tumbuh,
+belajar, dan meraih impian.
+</p>
+
+</details>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 HARIADI FAMILY
+
+<br><br>
+
+Hak Cipta:
+<b>Website ini berasal dari FADHIL SAMUDRA HARIADI</b>
+</footer>
+
+</body>
+</html>
